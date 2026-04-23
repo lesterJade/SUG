@@ -1,0 +1,30 @@
+label {
+    position: relative;
+}
+input {
+    background-color: lightblue;
+    width: 0px;
+    transition: width 1s, border-radius 1s;
+    border-radius: 50%;
+    border-color: transparent;
+    outline: none;
+    padding: 12px 20px 16px;
+    color: lightblue;
+    cursor: pointer;
+}
+input:focus {
+    border-radius: 10% 20%;
+    width: 150px;
+    color: black;
+}
+img {
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    left: 4px;
+    bottom: -6px;
+    transform: 0.4s;
+}
+input:focus + img {
+    opacity: 0;
+}

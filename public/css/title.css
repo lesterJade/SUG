@@ -1,0 +1,5 @@
+.underline-on-hover:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    transform: scale(1.5);
+}

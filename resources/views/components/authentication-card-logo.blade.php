@@ -1,0 +1,1 @@
+<img src="logo/ghost.png" width="100px">
